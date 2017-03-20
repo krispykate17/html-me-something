@@ -1,0 +1,95 @@
+html{
+    background-image: url("images/travel_background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	background-size: cover;
+	font-family: Georgia;
+}
+
+header,
+main,
+footer{
+	background: rgba(217, 179, 255, .9);
+	border: 2px solid black;
+}
+
+header{
+	margin-left: 10%;
+	margin-right: 68%;
+	margin-top: 14%;
+	text-align: center;
+	position: fixed;
+}
+
+main{
+	margin-left: 35%;
+	margin-right: 10%;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+section{
+	margin-bottom: 2em;
+	border-bottom: 1px solid black;
+}
+
+section:last-child{
+	border-bottom: none;
+}
+
+h2{
+	text-align: center;
+}
+
+h1{
+	padding: .25em;
+}
+
+main p{
+	margin-bottom: 2.5em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 99.2%;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+}
+
+li a{
+    display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 1px solid #555;
+}
+
+li a:hover{
+	background-color: #b8b894;
+	color: white;
+}
+
+li:last-child{
+	border-bottom: none;
+}
+
+footer{
+	text-align: center;
+	padding: none;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 2%
+}
+
+footer p{
+	display: inline-block;
+	padding: none;
+}
+
+#bnc{
+	text-align:center;
+}
