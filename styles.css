@@ -7,19 +7,23 @@ html{
 	font-family: Georgia;
 }
 
-header,
 main,
 footer{
 	background: rgba(217, 179, 255, .9);
 	border: 2px solid black;
 }
 
-header{
+#header{
 	margin-left: 10%;
 	margin-right: 68%;
 	margin-top: 14%;
 	text-align: center;
 	position: fixed;
+	border: 3px solid black
+}
+
+.diffbackgroundcolor{
+	background: rgba(184, 184, 148, .9);
 }
 
 main{
